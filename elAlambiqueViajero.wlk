@@ -1,4 +1,4 @@
-import recuerdosDeProvincias.*
+import recuerdoDeProvincia.*
 object luke{
     var cantidadViajes = 0
     var recuerdo = null
@@ -14,7 +14,11 @@ object luke{
         }
     }
     method recuerdo() = recuerdo
-    method vehiculo(nuevo) {vehiculo = nuevo}
+    method vehiculo(nuevo) {
+        vehiculo = nuevo
+    }
+    
+    method vehiculo() = vehiculo
 }
 
 object alambiqueVeloz {

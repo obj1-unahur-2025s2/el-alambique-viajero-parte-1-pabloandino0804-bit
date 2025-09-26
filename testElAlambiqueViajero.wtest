@@ -1,11 +1,9 @@
 import elAlambiqueViajero.*
-
+import recuerdoDeProvincia.*
 describe "Grupo de purebas"{
-    test ""{
-
-    }
-
-    test ""{
-        
+    test "el superconvertible se transforma en una moto y luke se sube a el"{
+        superConvertible.convertir(moto)
+        luke.vehiculo(superConvertible)
+        assert.that(luke.vehiculo())
     }
 }
